@@ -1,4 +1,3 @@
-# Breast-cancer-classification-AI-model
 # Breast Cancer Classifier
 
 ## Problem Statement
@@ -25,21 +24,20 @@ My approach to building the classifier followed these key steps:
 
 3.  **Baseline Models:** I trained two baseline classification models to establish a performance benchmark:
     - **Logistic Regression:** A linear model that's a good starting point for binary classification problems.
-    - **Random Forest Classifier:** An ensemble model that uses multiple decision trees to make a prediction.
+    - **K-Nearest Neighbors (KNN):** A simple, instance-based model that classifies new data points based on their proximity to known data points.
 
 ## Baseline Results
 
 Here are the performance metrics for the baseline models on the test set:
 
 ### Logistic Regression
-- **Accuracy:** [ ]
-- **Precision:** [ ]
-- **Recall:** [ ]
-- **F1-Score:** [ ]
+- **Accuracy:** 0.9737
+- **Precision:** 0.9577
+- **Recall:** 0.9937
+- **F1-Score:** 0.9754
 
-### Random Forest
-- **Accuracy:** [ ]
-- **Precision:** [ ]
-- **Recall:** [ ]
-- **F1-Score:** [ ]
-  
+### K-Nearest Neighbors
+- **Accuracy:** 0.9474
+- **Precision:** 0.9598
+- **Recall:** 0.9577
+- **F1-Score:** 0.9598
